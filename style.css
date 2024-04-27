@@ -1,0 +1,251 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.nav{  
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    padding: 40px;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.233);
+}
+.sous-n{
+    display: flex;
+    justify-content: space-between;
+}
+.gauche{
+    padding-top: 70px;
+}
+.mockups{
+    padding-top: 40px;
+}
+.boutton{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+}
+.glob{
+    margin-top: 6%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.233);
+}
+.glob2{
+        margin-top: 6%;
+        margin: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.233);
+}
+.ima{
+    padding: 25px;
+}
+.text{
+    padding-top: 8%;
+}
+.community{
+    margin-left: 30%;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.233);
+    position: relative;
+    top: 51px;
+    background-color: white;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+p{
+    color: hsl(208, 11%, 55%);
+    font-size: 13px;
+}
+.Ip{
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    padding: 50px;
+    background-color: hsl(192, 100%, 9%);
+}
+.fa-brands{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+.fin{
+    display: flex;
+    justify-content: end;
+}
+.attribution{
+    text-align: center;
+}
+@media (max-width: 500px){
+    .sous-n{
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        text-align: center;
+    }
+    .mockups{
+        width: 200px;
+    }
+    .glob{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .glob2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .ima{
+        width: 200px;
+        padding: 0;
+    }   
+    .head{
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    p{
+        font-size: 12px;
+    }
+    .community{
+        width: 75%;
+       margin-left: 20px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .fin{
+        text-align: center;
+    }
+    .pp{
+        font-size: 11px;
+    }
+    .icon{
+        text-align: center;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+    .sous-n {
+        display: flex;
+        flex-direction: column;
+    }
+    .head {
+        text-align: center;
+    }
+    .mockups {
+        width: 300px;
+    }
+    .glob {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .glob2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .ima {
+        width: 300px;
+        padding: 0;
+    }
+    .head {
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    p {
+        font-size: 12px;
+    }
+    .community {
+        width: 85%;
+        margin-left: 20px;
+    }
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+    .fin {
+        text-align: start;
+    }
+    .icon {
+        text-align: center;
+    }
+}
+@media (min-width: 801px) and (max-width: 1100px) {
+    .sous-n {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head {
+        text-align: center;
+    }
+    .mockups {
+        width: 500px;
+    }
+    .glob {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .glob2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .ima {
+        width: 500px;
+        padding: 0;
+    }
+    .head {
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    p {
+        font-size: 12px;
+    }
+    .community {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+    .fin {
+        text-align: start;
+    }
+    .icon {
+        text-align: center;
+    }
+}
